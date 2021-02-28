@@ -143,10 +143,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $f = fopen("text.txt","a");
         fwrite($f, "First Name= ".$FirstName ."\n");
         fwrite($f, "Last Name= ".$LastName ."\n");
-		fwrite($f, "Gender= ".$Gender ."\n\n");
-		fwrite($f, "Email= ".$Email. "\n");
+	fwrite($f, "Gender= ".$Gender ."\n\n");
+	fwrite($f, "Email= ".$Email. "\n");
         
-		fwrite($f, "User Name=".$UserName. "\n");
+	fwrite($f, "User Name=".$UserName. "\n");
         fwrite($f, "Password=".$Password. "\n");
         fwrite($f, "Recovery Email=".$RecoveryEmail. "\n");
       
